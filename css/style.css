@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+@font-face{
+	font-family: "ChevinMedium", sans-serif;
+	src:url(../ChevinMedium/ChevinMedium.otf);
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+header{
+	background-color: #8C599F;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 5px 20px;
+    transition: all 0.4s ease;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+
+    background-color: #643A79;
+    color: rgb(255, 255, 255);
+}
+header h1{
+	color: #fff;
+	text-align: center;
+}
+.btn{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 300;
+	padding: 14px 65px;
+	border-radius: 5px;
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+
+.btn-orange{
+	background-color: #EB7D4B;
+	border-bottom: 7px solid #D97345;
+	border-right:7px solid transparent;
+}
+.btn:hover{
+	border-bottom: 7px solid transparent;
+	border-right:7px solid #D97345;
+	color: #fff;
+}
+
+header .row{
+	align-items: center;
+	min-height: 100vh;
+
+}
+section{
+	padding: 100px 0;
+}
+.service-section{
+	background-color: #17C2A4;
+}
+.heading{
+	color: #fff;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.heading h1{
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: 500;
+}
+.heading span{
+    background: #00000038;
+    width: 80px;
+    height: 5px;
+    display: block;
+    margin:10px auto;
+}
+.heading p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.service{
+    text-align: center;
+}
+.service img{}
+.service h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 40px 0 20px;
+    font-weight: 600;
+}
+.service p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.team-section{
+	background: #E7F1F8;
+}
+.team-section .heading, .skills-section .heading{
+	color: #3C3E52;
+
+}
+
+.team{
+    text-align: center;
+}
+.team img{}
+.team h2{
+    color: #3C3E52;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 40px 0 0px;
+    font-weight: 600;
+}
+.team p{
+    color: #3C3E52;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.team h4{
+    margin-bottom: 20px;
+    color: #57C3E9;
+    font-size: 14px;
+    font-weight: 400;
+}
+.team ul{
+    justify-content: center;
+}
+.team ul li{
+    padding: 0 4px;
+}
+.team ul li a{
+    background: #BDD1DF;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 12px;
+    transition: all 0.4s ease;
+}
+.team ul li a:hover{
+	background: #3C3E52;
+}
+.skills{
+	text-align: center;
+}
+.skills div{
+    position: relative;
+}
+.skills div img{}
+.skills div h4{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    margin: 0;
+    font-size: 30px;
+    color: #465068;
+}
+.skills h2{
+    color: #3C3E52;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 10px 0 0px;
+    font-weight: 600;
+}
