@@ -43,9 +43,9 @@ header h1{
 	border-bottom: 7px solid #D97345;
 	border-right:7px solid transparent;
 }
-.btn:hover{
+.btn-orange:hover{
 	border-bottom: 7px solid transparent;
-	border-right:7px solid #D97345;
+	border-right:7px solid #D97345 !important;
 	color: #fff;
 }
 
@@ -286,7 +286,7 @@ section{
 	border-bottom: 7px solid #299EC5;
 	border-right:7px solid transparent;
 }
-.btn:hover{
+.btn-blue:hover{
 	border-bottom: 7px solid transparent;
 	border-right:7px solid #299EC5;
 	color: #fff;
