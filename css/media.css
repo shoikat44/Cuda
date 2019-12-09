@@ -1,0 +1,80 @@
+/*lg*/
+@media (max-width: 1199px){
+	.heading h1 {
+    font-size: 28px;
+}
+
+}
+/*md*/
+@media (max-width: 991px){
+	header h1{
+		font-size: 32px;
+	}
+	.skills h2 {
+    font-size: 14px;
+    
+}
+.portfolio h5 {
+    font-size: 12px;
+    
+}
+footer ul li a {
+    font-size: 15px;
+}
+.heading h1 {
+    font-size: 21px;
+}
+}
+/*sm*/
+@media (max-width: 767px){
+	.btn {
+    
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 51px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.portfolio-section .btn {
+    font-size: 16px;
+    padding: 8px 20px;
+}
+.feedback{
+	text-align: center;
+}
+footer ul li a {
+    font-size: 15px;
+    padding: 5px 6px;
+}
+}
+/*col*/
+@media (max-width: 575px){
+	header h1{
+		font-size: 22px;
+	}
+	.btn {
+    
+    font-size: 12px;
+    font-weight: 300;
+    padding: 7px 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.heading h1 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.heading p {
+    font-size: 14px;
+}
+footer ul li a {
+   
+    font-size: 15px;
+    padding: 5px 10px;
+    
+}
+.portfolio-btn button {
+    padding: 5px 10px;
+}
+
+}

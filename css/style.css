@@ -67,7 +67,7 @@ section{
 }
 .heading h1{
 	text-transform: uppercase;
-	font-size: 35px;
+	font-size: 32px;
 	font-weight: 500;
 }
 .heading span{
@@ -311,4 +311,15 @@ footer ul li a{
 footer ul li a:hover{
     color: #FFDD99;
     text-decoration: none;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgb(255, 255, 255);
+    border-color: rgba(255, 255, 255, 0.87);
+    border-radius: 0;
+}
+.navbar-dark .navbar-toggler:hover{
+	color: #87509C;
+    border-color: transparent;
+    background-color: rgb(255, 255, 255);
 }
